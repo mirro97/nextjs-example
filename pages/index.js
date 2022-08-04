@@ -24,7 +24,7 @@ export default function Home() {
     <>
       <Seo title="HOME" content="🥕" />
       {movies.map((movie, index) => (
-        <MainCard movie={movie} index={index} />
+        <MainCard movie={movie} key={index} />
       ))}
     </>
   );
