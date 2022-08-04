@@ -19,14 +19,14 @@ export default function NavBar() {
           HOME
         </a>
       </Link>
-      <Link href="/farm">
+      <Link href="/about">
         <a
           className={[
             styles.under,
-            router.pathname === "/farm" ? styles.active : "",
+            router.pathname === "/about" ? styles.active : "",
           ].join(" ")}
         >
-          MY FARM
+          ABOUT
         </a>
       </Link>
     </nav>
